@@ -1,0 +1,38 @@
+* {
+    background-color: #F5F5DC;
+    font-family: sans-serif;
+
+}
+
+.title {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bolder;
+    color: black;
+}
+
+
+#recipe1 {
+    width: 33%;
+    float: left;
+}
+
+#recipe2 {
+    width: 33%;
+    float: left;
+}
+
+#recipe3 {
+    width: 33%;
+    float: right;
+}
+
+.container {
+    text-decoration: none;
+    color: black;
+}
+
+.image-container {
+    width: 300px;
+    height: auto;
+}
