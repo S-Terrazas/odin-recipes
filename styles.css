@@ -1,6 +1,7 @@
 * {
     background-color: #F5F5DC;
     font-family: sans-serif;
+    list-style: none;
 
 }
 
@@ -12,27 +13,32 @@
 }
 
 
-#recipe1 {
+.box-left {
     width: 33%;
     float: left;
 }
 
-#recipe2 {
+.box-center {
     width: 33%;
     float: left;
 }
 
-#recipe3 {
+.box-right {
     width: 33%;
     float: right;
 }
 
-.container {
-    text-decoration: none;
+#container a {
+
     color: black;
+    font-size: 22px;
+    display: block;
+    
 }
 
-.image-container {
+img {
     width: 300px;
-    height: auto;
+    height: 300px;
+    object-fit: cover;
+    border: solid 1px #CCC;
 }
