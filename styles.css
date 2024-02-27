@@ -1,7 +1,7 @@
 
 * {
-    background-color: #F5F5DC;
-    font-family: sans-serif;
+    background-color: antiquewhite;
+    font-family: sans-serif, Arial, Helvetica;
 
 }
 
@@ -33,6 +33,9 @@
     color: black;
     font-size: 22px;
     display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
 }
 
 img {
@@ -49,4 +52,26 @@ img {
 
 ul {
     list-style: none;
+}
+
+.blank-box {
+    height: 100px;
+}
+
+.blank-box2 {
+    height: 20px;
+}
+
+.image-container2 {
+    width: fit-content;
+    height: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#container .image-container {
+    width: fit-content;
+    height: fit-content;
+    margin-left: auto;
+    margin-right: auto;
 }
