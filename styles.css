@@ -1,7 +1,7 @@
 
 * {
-    background-color: antiquewhite;
     font-family: sans-serif, Arial, Helvetica;
+    background-color: #F4F0E0;
 
 }
 
@@ -64,7 +64,7 @@ ul {
 
 .image-container2 {
     width: fit-content;
-    height: fit-content;
+    height: 370px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -72,6 +72,27 @@ ul {
 #container .image-container {
     width: fit-content;
     height: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.intro {
+    width: 95%;
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 18px;
+    font-weight: 520;
+}
+
+.list1 {
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.list2 {
+    width: 95%;
     margin-left: auto;
     margin-right: auto;
 }
