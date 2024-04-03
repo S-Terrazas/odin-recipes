@@ -21,6 +21,8 @@
 
    #container {
     display: flex;
+    flex: auto;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
     background-color: #F6F3E7;
@@ -44,7 +46,7 @@
     padding: 20px 0px;
     border: 0.5px solid #CFB284;
     background-color: #F6F3E7;
-    margin-top: 0px;
+    margin-bottom: 48px;
    }
 
    .menu-container {
@@ -66,12 +68,12 @@
 
    .menu-container .links {
     display: flex;
+    gap: 1rem;
     margin-right: 16px;
     color: #4B371C;
     background-color: #F6F3E7;
    }
 
    .links > div {
-    margin-left: 24px;
     background-color: #F6F3E7;
    }
